@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Marhey", sans-serif;
+}
+
+body {
+  background-color: rgb(249, 226, 203);
+}
+
+.page1{
+  background-image: url("/media/fox1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  
+}
+
+.page1 h1 {
+  color: rgb(205, 177, 151);
+  font-size: 60px;
+  text-align: center;
+  margin-top: 150px;
+  text-shadow: 1px 1px 20px rgb(60, 60, 49);
+}
+.page1 h3 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.page1 p {
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 20px black;
+  font-family: "Exo 2", sans-serif;
+}
+
+#end_text {
+  color: rgb(91, 76, 65);
+  text-shadow: 2px 2px 2px rgba(67, 41, 10, 0.6);
+}
+
+.button {
+  padding-left: 570px;
+}
+
+.button button {
+  border: none;
+  cursor: pointer;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  background-color: rgb(90, 71, 53);
+  font-size: 40px;
+  margin-top: 40px;
+  padding: 12px 30px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 1px 1px 17px white;
+  border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+}
+
+.page2 h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 3px grey;
+  color: rgb(63, 56, 49)
+}
+
+.page2 p {
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: justify;
+}
+
+.image1 img,
+.image2 img {
+  width: 350px;
+  height: 350px;
+  margin: 50px 450px;
+}
