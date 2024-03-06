@@ -13,28 +13,28 @@ body {
   background-color: rgb(249, 226, 203);
 }
 
-.page1{
+.page1 {
   background-image: url("/media/fox1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   background-attachment: fixed;
-  
 }
 
-.page1 h1 {
+.snake {
   color: rgb(205, 177, 151);
-  font-size: 60px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 150px;
   text-shadow: 1px 1px 20px rgb(60, 60, 49);
+  margin-bottom: 30px;
+  padding-top: 150px;
 }
-.page1 h3 {
+.page1 h2 {
   color: white;
-  font-size: 30px;
+  font-weight: 350px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 20px;
-  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
 .page1 p {
@@ -61,8 +61,8 @@ body {
   font-family: "Exo 2", sans-serif;
   color: white;
   background-color: rgb(90, 71, 53);
-  font-size: 40px;
   margin-top: 40px;
+  margin-bottom: 70px;
   padding: 12px 30px;
   text-align: center;
   font-size: 15px;
@@ -76,7 +76,7 @@ body {
   margin-top: 20px;
   text-align: center;
   text-shadow: 2px 2px 3px grey;
-  color: rgb(63, 56, 49)
+  color: rgb(63, 56, 49);
 }
 
 .page2 p {
